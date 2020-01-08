@@ -5,10 +5,11 @@ require 'pry'
   
   counter = 0 
   while counter < source_array.size 
-  
+    result << result[counter] * -1 
   end
   
   #binding.pry
+  result
 end
 
 def map_to_no_change(source_array)
