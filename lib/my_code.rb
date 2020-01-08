@@ -1,8 +1,14 @@
 # My Code here....
 require 'pry'
-def map_to_negativize(source_array)
-result = [] 
-#binding.pry
+  def map_to_negativize(source_array)
+  result = [] 
+  
+  counter = 0 
+  while counter < source_array.size 
+  
+  end
+  
+  #binding.pry
 end
 
 def map_to_no_change(source_array)
