@@ -8,7 +8,7 @@ require 'pry'
     result << source_array[counter] * -1
   end
   
-  #binding.pry
+  binding.pry
   result
 end
 
