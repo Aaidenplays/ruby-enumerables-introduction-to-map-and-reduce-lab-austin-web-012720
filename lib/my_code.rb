@@ -2,7 +2,7 @@
 require 'pry'
 def map_to_negativize(source_array)
 result = [] 
-binding.pry
+#binding.pry
 end
 
 def map_to_no_change(source_array)
