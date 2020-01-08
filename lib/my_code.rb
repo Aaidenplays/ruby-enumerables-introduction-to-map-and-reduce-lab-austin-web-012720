@@ -5,7 +5,7 @@ require 'pry'
   
   counter = 0 
   while counter < source_array.size 
-    result << (result[counter] * -1) 
+    result[counter] = (result[counter] * -1) 
   end
   
   #binding.pry
